@@ -3,7 +3,7 @@ import {Link}  from 'react-router-dom'
 import Cart from '../Cart'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCartShopping, faTrash} from '@fortawesome/free-solid-svg-icons'
-import  bolsa from './bolsa_compra.png'
+
 
 
 
@@ -18,7 +18,7 @@ const Header = ({cartItems, quitarProducto}) => {
           <li><Link to='/Contacto' className='link'>Contacto</Link></li>
           <li><Link to='/GaleriaDeProductos' className='link'>Productos</Link></li>
           <li>
-            <button onClick={() => setCartOpen(true)}><img className='bolsa' src={bolsa} /></button>
+            <button onClick={() => setCartOpen(true)}><FontAwesomeIcon icon={faCartShopping}/></button>
             <Cart quitarProducto={quitarProducto} cartItems={cartItems} isOpen={isCartOpen} onClose={()=> setCartOpen(false)}/>
         
           </li>
