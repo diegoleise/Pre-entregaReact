@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "nombre": "Royal Canin Medium",
+        "precio": "$7000",
+        "stock": "8",
+        "imagen": "https://catycanar.vtexassets.com/arquivos/ids/155831-800-auto?v=637732965925400000&width=800&height=auto&aspect=true"
+        
+
+    },
+    {
+
+        "id": 2,
+        "nombre": "Royal Canin Adulto",
+        "precio": "$5000",
+        "stock": "17",
+        "imagen": "https://catycanar.vtexassets.com/arquivos/ids/160559-800-auto?v=637762992189600000&width=800&height=auto&aspect=true"
+
+    },
+    {
+        "id": 3,
+        "nombre": "Kongo Gatos",
+        "precio": "$4000",
+        "stock": "22",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/003/845/983/products/kongo-gatos-cachorros-sabor-carne-y-leche-pet-shop-animall-com-ar-bad66e228d761541cf17001582839089-640-0.webp"
+
+    },
+    {
+        "id": 4,
+        "nombre": "Royal Canin Gatos",
+        "precio": "$6000",
+        "stock": "33",
+        "imagen": "https://www.universomascota.com.ar/wp-content/uploads/2021/10/7790187340527_01.jpg.webp"
+
+    }
+]
